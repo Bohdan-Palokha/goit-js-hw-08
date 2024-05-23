@@ -91,7 +91,7 @@ galleryContainer.addEventListener('click', event => {
     const clickedElement = event.target;
     if (clickedElement.nodeName !== `IMG`) return;
 
-    const largeImageURL = clickedElement.dataset.sourse;
+    const largeImageURL = clickedElement.dataset.source;
     console.log(largeImageURL);
 
     const instance = basicLightbox.create(`
